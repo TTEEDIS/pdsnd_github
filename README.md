@@ -2,7 +2,7 @@
 07.10.2020
 
 ### Project Title
-US Bikeshare Data
+Explore US Bikeshare Data
 
 ### Description
 Statistical studies on Chicago, New York and Washington bikeshare data
@@ -12,4 +12,5 @@ bikeshare.py
 
 ### Credits
 udacity.com
+
 
