@@ -29,7 +29,7 @@ def get_filters():
         month = input("Please select the month info for the month to filter from January to June or select 'all' for all the months data\n").lower()
 
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+
     day = input("Please select the day info for the day to filter from Monday to Sunday or select 'all' for all the days data\n").lower()
     while day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
         print('We have no data for the selected day.\n')
@@ -60,7 +60,7 @@ def load_data(city, month, day):
         # filter by month to create the new dataframe
         df = df[df['month'] == month]
 
-    # filter by day of week if applicable
+ 
     if day != 'all':
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
